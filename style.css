@@ -15,7 +15,6 @@ h1 {
     display: flex;
     justify-content: center;
     font-family: 'Uchen', serif;
-
 }
 
 .navbar-1 {
@@ -24,7 +23,6 @@ h1 {
     overflow: hidden;
     display: flex;
     font-family: 'Uchen', serif;
-
 }
 
 .container a {
@@ -49,7 +47,6 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-
 }
 
 .card {
@@ -70,8 +67,6 @@ h1 {
     flex-wrap: wrap;
     width: 1400px;
     left: 20px;
-    
-
 }
 
 .card-text {
@@ -90,8 +85,63 @@ h1 {
     margin-left: 20px;
     justify-content: center;
     align-items: center;
-
 }
+
+.contenedor {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.texto-encima {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    background-color: black;
+    opacity: 50%;
+    font-size: 30px;
+}
+
+.centrado {
+    position: absolute;
+    top: 40%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: black;
+    opacity: 50%;
+    font-size: 20px;
+}
+
+section .imagenes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+}
+
+section .texto-cocteles {
+    background-color: rgb(18, 81, 135);
+    color: orange;
+    margin: 20px;
+    padding: 10px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 480px) {
     .video {
@@ -116,12 +166,22 @@ h1 {
 
     #footer-title {
         margin: 0px auto;
-
     }
 
     .card-text {
-        
         text-align: center;
     }
     
+}
+
+@media screen and (max-width: 480px) {
+    section .imagenes {
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section .contenedor {
+        padding-top: 20px;
+    }
 }
