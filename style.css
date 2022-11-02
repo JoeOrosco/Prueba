@@ -65,29 +65,63 @@ h1 {
     overflow: hidden;
 }
 
-.botones {
+.footer {
     display: flex;
     flex-wrap: wrap;
     width: 1400px;
     left: 20px;
-    padding: 20px;
+    
+
 }
 
 .card-text {
     padding: 20px;
+    text-align: left;
 }
 
-@media screen and (max-width: 480px){
-    .video{
+.card-body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    position: sticky;
+}
+
+#redes-sociales {
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@media screen and (max-width: 480px) {
+    .video {
         width: 90%;
     }
-    
 }
 
-@media screen and (max-width: 480px){
-    .botones{
-        width: auto;
+@media screen and (max-width: 480px) {
+    .footer {
+
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #redes-sociales {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px auto;
+    }
+
+    #footer-title {
+        margin: 0px auto;
+
+    }
+
+    .card-text {
+        
+        text-align: center;
     }
     
 }
-
