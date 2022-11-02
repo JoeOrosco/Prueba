@@ -144,31 +144,17 @@ section .texto-cocteles {
     text-align: center;
     align-items: center;
 }
-/* fin estilos de la pagina historia */
+/* Fin estilos de la pagina historia */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Video de la pagina inicio */
 @media screen and (max-width: 480px) {
     .video {
         width: 90%;
     }
 }
+/* fin de la media */
 
+/* footer */
 @media screen and (max-width: 480px) {
     .footer {
 
@@ -191,8 +177,9 @@ section .texto-cocteles {
     .card-text {
         text-align: center;
     }
-    
 }
+/* fin footer */
+
 
 @media screen and (max-width: 480px) {
     section .imagenes {
