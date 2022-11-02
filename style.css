@@ -130,7 +130,7 @@ section .texto-cocteles {
 
 /* inicio de estilos de la pagina galeria */
 .grid-container {
-    margin-top: 20px;
+    margin-top: 40px;
     justify-content:space-around;
     display: flex;
     flex-wrap: wrap;
@@ -138,6 +138,13 @@ section .texto-cocteles {
 }
 /* fin estilos galeria */
 
+/* estilos de la pagina historia */
+.row {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+/* fin estilos de la pagina historia */
 
 
 
