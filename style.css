@@ -36,8 +36,8 @@ h1 {
 }
 
 #carouselExampleSlidesOnly {
-    display:flex;
-     justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 .carousel {
@@ -49,10 +49,45 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+
 }
 
 .card {
     width: 18rem;
     margin-top: 20px;
+}
+
+.video-mapa {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.botones {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1400px;
+    left: 20px;
+    padding: 20px;
+}
+
+.card-text {
+    padding: 20px;
+}
+
+@media screen and (max-width: 480px){
+    .video{
+        width: 90%;
+    }
+    
+}
+
+@media screen and (max-width: 480px){
+    .botones{
+        width: auto;
+    }
+    
 }
 
